@@ -10,8 +10,14 @@ This experimantal language will support the following features
 5. first class and higher order functions
 6. Array and Hash data structures
 
+### Variable Declarations
 ```
 let age = 1
 let name = "Sabini"
 let result = 10 * (20 + 90)
+```
+### Arrays and structs
+```
+let myArr = [1,2,3,4,5]
+let mystruct = { name: "smdeveloper", language: "golang" }
 ```
