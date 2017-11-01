@@ -1,3 +1,9 @@
+//***************************************************************************
+// Copyright 2017 smtechnocrat. All rights reserved.
+//  
+// Package token contains all the Identifers supported by the language.
+//
+//***************************************************************************
 package token
 
 type TokenType string
