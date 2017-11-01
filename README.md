@@ -31,3 +31,4 @@ add(12, 45)
 ```
 ### Resources
 1. [Golang source code](https://golang.org/src/go/)
+2. [Gophercon](https://github.com/gophercon)
