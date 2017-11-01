@@ -65,6 +65,11 @@ func (l *Lexer) NextToken() token.Token {
 	l.readChar()
 	return tok
 }
+// An ErrorHandler may be provided to Lexer.Init. If a syntax error is
+// encountered and a handler was installed, the handler is called with a
+// position and an error message. The position points to the beginning of
+// the offending token.
+type ErrorHandler func(pos token.Position, msg string)
 
 func newToken(ttype token.TokenType, ch byte) token.Token {
 	return token.Token{Type: ttype, Literal: string(ch)}
