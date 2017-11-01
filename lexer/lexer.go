@@ -1,3 +1,10 @@
+//***************************************************************************
+// Copyright 2017 smtechnocrat. All rights reserved.
+//  
+// Package lexer implements a scanner for the Sabini source code
+// It takes a string as source which can then be tokenized
+// through repeated calls to the NextToken method.
+//***************************************************************************
 package lexer
 
 import (
