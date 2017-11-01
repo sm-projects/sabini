@@ -21,3 +21,11 @@ let result = 10 * (20 + 90)
 let myArr = [1,2,3,4,5]
 let mystruct = { name: "smdeveloper", language: "golang" }
 ```
+### Functions and Function Bindings
+```
+let add = fn(a,b) { a + b; }; //Sabini does not have return statements, it is implicit here.
+
+# calling a function
+add(12, 45)
+
+```
